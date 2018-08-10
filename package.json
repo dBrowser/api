@@ -1,6 +1,6 @@
 {
   "name": "@dbrowser/api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "dBrowser's User Data Vault API.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -12,15 +12,15 @@
     "test": "ava -s test/*.js && standard --fix"
   },
   "dependencies": {
-    "@dwcore/dws2": "dwcore/dws2#master",
     "@dwcore/dws-chain": "dwcore/dws-chain#master",
+    "@dwcore/dws2": "dwcore/dws2#master",
     "@dwebs/dsitedb": "distributedweb/dsitedb#master",
     "monotonic-timestamp-base36": "^1.0.0",
     "normalize-url": "^1.9.1",
     "slugify-url": "^1.2.0"
   },
   "devDependencies": {
-    "@dpack/vault": "dpacks/vault#master",
+    "@dpack/vault": "*",
     "ava": "^0.21.0",
     "tempy": "^0.1.0"
   },
